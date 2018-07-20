@@ -1,0 +1,1062 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0C07021F60F6DB0092C18A /* SharedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C07011F60F6DB0092C18A /* SharedInfo.swift */; };
+		5B0C07081F678C3B0092C18A /* Adwords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C07071F678C3B0092C18A /* Adwords.swift */; };
+		5B1974D31F717ED500F65D6F /* SelectPokemonPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1974D21F717ED500F65D6F /* SelectPokemonPopup.swift */; };
+		5B19750F1F72C82400F65D6F /* addPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19750E1F72C82400F65D6F /* addPlaceVC.swift */; };
+		5B24925B20996B460090ECE0 /* MainNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24925A20996B460090ECE0 /* MainNavigationBar.swift */; };
+		5B42724A1F852EB200EADB33 /* LocationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4272491F852EB200EADB33 /* LocationMessage.swift */; };
+		5B4CE6C2209765C30005A8D0 /* PokemonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CE6C1209765C30005A8D0 /* PokemonList.swift */; };
+		5B4EF5C11FE36CC40061C18D /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EF5C01FE36CC40061C18D /* SettingsVC.swift */; };
+		5B4EF5C31FE4033C0061C18D /* What2Do.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5B4EF5C21FE4033C0061C18D /* What2Do.rtf */; };
+		5B50D3401FF6164700A6A7F6 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50D33F1FF6164700A6A7F6 /* GroupTableViewCell.swift */; };
+		5B51F46E1F45DC6B001C014F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51F46C1F45DC6B001C014F /* LoginVC.swift */; };
+		5B51F4721F45E75F001C014F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51F4701F45E75F001C014F /* SignUpVC.swift */; };
+		5B51F49B1F547B5D001C014F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51F49A1F547B5D001C014F /* Main.storyboard */; };
+		5B51F49D1F548A3E001C014F /* calloutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51F49C1F548A3E001C014F /* calloutVC.swift */; };
+		5B51F4A31F549CDB001C014F /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51F4A11F549CDB001C014F /* ChatCell.swift */; };
+		5B51F4A41F549CDB001C014F /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B51F4A21F549CDB001C014F /* ChatCell.xib */; };
+		5B51F4A81F551177001C014F /* PopupViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51F4A71F551177001C014F /* PopupViews.storyboard */; };
+		5B51F4AA1F575140001C014F /* createGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51F4A91F575140001C014F /* createGroupVC.swift */; };
+		5B5D5B1120BEBF7200BDED07 /* addRaidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D5B1020BEBF7200BDED07 /* addRaidVC.swift */; };
+		5B5D5B1520BEBF8D00BDED07 /* addPkmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D5B1420BEBF8D00BDED07 /* addPkmVC.swift */; };
+		5B5D5B1720BEC49E00BDED07 /* CalloutPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D5B1620BEC49E00BDED07 /* CalloutPopupVC.swift */; };
+		5B5D5B1920C5B2FC00BDED07 /* addNestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D5B1820C5B2FC00BDED07 /* addNestVC.swift */; };
+		5B5D5B1B20C80B2B00BDED07 /* AdminGroupControlsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D5B1A20C80B2B00BDED07 /* AdminGroupControlsVC.swift */; };
+		5B5D5B1F20C865FD00BDED07 /* RequestPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D5B1E20C865FD00BDED07 /* RequestPopupVC.swift */; };
+		5B70D6641F3F177F004A772D /* GroupDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D6621F3F177F004A772D /* GroupDetailsVC.swift */; };
+		5B76CD501F9E375300C0C687 /* Callout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B76CD4F1F9E375300C0C687 /* Callout.swift */; };
+		5B7CFD5F1FC779A10080CA7F /* PokeAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CFD5E1FC779A10080CA7F /* PokeAPIHandler.swift */; };
+		5B8707D32080CE7D00404E7F /* selectCalloutTypePopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8707D22080CE7D00404E7F /* selectCalloutTypePopupVC.swift */; };
+		5B887B8A1FD8812C00E4DA24 /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B887B891FD8812C00E4DA24 /* FirebaseHandler.swift */; };
+		5B8D2B1B1F862B0D00DE34CD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D2B1A1F862B0D00DE34CD /* Message.swift */; };
+		5B9CE057203DF601002FE7DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CE056203DF601002FE7DB /* Extensions.swift */; };
+		5B9DD75520725B41004E3166 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B9DD75420725B40004E3166 /* GoogleService-Info.plist */; };
+		5B9DD7572074E836004E3166 /* LocationCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9DD7562074E836004E3166 /* LocationCache.swift */; };
+		5BA127811F2B511300F45AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA127801F2B511300F45AF8 /* AppDelegate.swift */; };
+		5BA127881F2B511300F45AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA127871F2B511300F45AF8 /* Assets.xcassets */; };
+		5BA1278B1F2B511300F45AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA127891F2B511300F45AF8 /* LaunchScreen.storyboard */; };
+		5BA127961F2B511300F45AF8 /* PokemonGo_GroupfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA127951F2B511300F45AF8 /* PokemonGo_GroupfinderTests.swift */; };
+		5BA127A11F2B511300F45AF8 /* PokemonGo_GroupfinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA127A01F2B511300F45AF8 /* PokemonGo_GroupfinderUITests.swift */; };
+		5BA127B71F2B521C00F45AF8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA127B61F2B521C00F45AF8 /* User.swift */; };
+		5BA127B91F2B522C00F45AF8 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA127B81F2B522C00F45AF8 /* Group.swift */; };
+		5BA127C31F2B5BEF00F45AF8 /* GroupFinderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA127C11F2B5BEF00F45AF8 /* GroupFinderVC.swift */; };
+		5BA127D31F31E0D300F45AF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA127D11F31E0D300F45AF8 /* MainViewController.swift */; };
+		5BAB21351FE95822005D46D5 /* CreditsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB21341FE95822005D46D5 /* CreditsVC.swift */; };
+		5BAB21371FE95840005D46D5 /* FeedBackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB21361FE95840005D46D5 /* FeedBackVC.swift */; };
+		5BAB21391FE95863005D46D5 /* ReportProblemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB21381FE95863005D46D5 /* ReportProblemVC.swift */; };
+		5BAB213B1FEAAA17005D46D5 /* AdConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB213A1FEAAA17005D46D5 /* AdConfirmationVC.swift */; };
+		5BB561281F33826700FC6239 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB561261F33826700FC6239 /* MyProfileVC.swift */; };
+		5BB561341F34A19500FC6239 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB561331F34A19500FC6239 /* Pokemon.swift */; };
+		5BBCFC5F1F432E940019BA72 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC5E1F432E940019BA72 /* AudioToolbox.framework */; };
+		5BBCFC611F432E9F0019BA72 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC601F432E9F0019BA72 /* CFNetwork.framework */; };
+		5BBCFC631F432EAA0019BA72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC621F432EAA0019BA72 /* CoreGraphics.framework */; };
+		5BBCFC651F432EB50019BA72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC641F432EB50019BA72 /* CoreLocation.framework */; };
+		5BBCFC671F432EC20019BA72 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC661F432EC20019BA72 /* MobileCoreServices.framework */; };
+		5BBCFC691F432ECD0019BA72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC681F432ECD0019BA72 /* QuartzCore.framework */; };
+		5BBCFC6B1F432ED60019BA72 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC6A1F432ED60019BA72 /* Security.framework */; };
+		5BBCFC6D1F432EDF0019BA72 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC6C1F432EDF0019BA72 /* StoreKit.framework */; };
+		5BBCFC6F1F432EE90019BA72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC6E1F432EE90019BA72 /* SystemConfiguration.framework */; };
+		5BBCFC711F432F200019BA72 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC701F432F200019BA72 /* libsqlite3.tbd */; };
+		5BBCFC731F432F290019BA72 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBCFC721F432F290019BA72 /* libz.tbd */; };
+		5BC986671F42395200EAF7C7 /* Invite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC986661F42395200EAF7C7 /* Invite.swift */; };
+		5BEF475E20197D8E00BB5CBC /* GroupInvitesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF475D20197D8E00BB5CBC /* GroupInvitesVC.swift */; };
+		8AA365F286DCDD7863AC5466 /* Pods_PokemonGo_GroupfinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4B5B3022C1086F2F160AFF /* Pods_PokemonGo_GroupfinderTests.framework */; };
+		D71F4CC7D6D1984DD69710CC /* Pods_PokemonGo_GroupfinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27EFB8485EA8ED324E52465 /* Pods_PokemonGo_GroupfinderUITests.framework */; };
+		FC80B32931A4A49579C236E4 /* Pods_PokemonGo_Groupfinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64B26834A1F0B0DCAF7E137 /* Pods_PokemonGo_Groupfinder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BA127921F2B511300F45AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA127751F2B511300F45AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA1277C1F2B511300F45AF8;
+			remoteInfo = "PokemonGo Groupfinder";
+		};
+		5BA1279D1F2B511300F45AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA127751F2B511300F45AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA1277C1F2B511300F45AF8;
+			remoteInfo = "PokemonGo Groupfinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ED6D066E33A8B87445D62D4 /* Pods-PokemonGo GroupfinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonGo GroupfinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonGo GroupfinderTests/Pods-PokemonGo GroupfinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0C07011F60F6DB0092C18A /* SharedInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedInfo.swift; sourceTree = "<group>"; };
+		5B0C07071F678C3B0092C18A /* Adwords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adwords.swift; sourceTree = "<group>"; };
+		5B1974D21F717ED500F65D6F /* SelectPokemonPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPokemonPopup.swift; sourceTree = "<group>"; };
+		5B19750E1F72C82400F65D6F /* addPlaceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addPlaceVC.swift; sourceTree = "<group>"; };
+		5B24925A20996B460090ECE0 /* MainNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationBar.swift; sourceTree = "<group>"; };
+		5B4272491F852EB200EADB33 /* LocationMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMessage.swift; sourceTree = "<group>"; };
+		5B4CE6C1209765C30005A8D0 /* PokemonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonList.swift; sourceTree = "<group>"; };
+		5B4EF5C01FE36CC40061C18D /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		5B4EF5C21FE4033C0061C18D /* What2Do.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = What2Do.rtf; sourceTree = "<group>"; };
+		5B50D33F1FF6164700A6A7F6 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		5B51F46C1F45DC6B001C014F /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5B51F4701F45E75F001C014F /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		5B51F49A1F547B5D001C014F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5B51F49C1F548A3E001C014F /* calloutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calloutVC.swift; sourceTree = "<group>"; };
+		5B51F4A11F549CDB001C014F /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		5B51F4A21F549CDB001C014F /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		5B51F4A71F551177001C014F /* PopupViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopupViews.storyboard; sourceTree = "<group>"; };
+		5B51F4A91F575140001C014F /* createGroupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createGroupVC.swift; sourceTree = "<group>"; };
+		5B5D5B1020BEBF7200BDED07 /* addRaidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addRaidVC.swift; sourceTree = "<group>"; };
+		5B5D5B1420BEBF8D00BDED07 /* addPkmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPkmVC.swift; sourceTree = "<group>"; };
+		5B5D5B1620BEC49E00BDED07 /* CalloutPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutPopupVC.swift; sourceTree = "<group>"; };
+		5B5D5B1820C5B2FC00BDED07 /* addNestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNestVC.swift; sourceTree = "<group>"; };
+		5B5D5B1A20C80B2B00BDED07 /* AdminGroupControlsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminGroupControlsVC.swift; sourceTree = "<group>"; };
+		5B5D5B1E20C865FD00BDED07 /* RequestPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPopupVC.swift; sourceTree = "<group>"; };
+		5B70D6621F3F177F004A772D /* GroupDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDetailsVC.swift; sourceTree = "<group>"; };
+		5B76CD4F1F9E375300C0C687 /* Callout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callout.swift; sourceTree = "<group>"; };
+		5B7CFD5E1FC779A10080CA7F /* PokeAPIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPIHandler.swift; sourceTree = "<group>"; };
+		5B8707D22080CE7D00404E7F /* selectCalloutTypePopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectCalloutTypePopupVC.swift; sourceTree = "<group>"; };
+		5B887B891FD8812C00E4DA24 /* FirebaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandler.swift; sourceTree = "<group>"; };
+		5B8D2B1A1F862B0D00DE34CD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5B9CE056203DF601002FE7DB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5B9DD75420725B40004E3166 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B9DD7562074E836004E3166 /* LocationCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCache.swift; sourceTree = "<group>"; };
+		5BA1277D1F2B511300F45AF8 /* PokemonGo Groupfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokemonGo Groupfinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA127801F2B511300F45AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BA127871F2B511300F45AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BA1278A1F2B511300F45AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BA1278C1F2B511300F45AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA127911F2B511300F45AF8 /* PokemonGo GroupfinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokemonGo GroupfinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA127951F2B511300F45AF8 /* PokemonGo_GroupfinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGo_GroupfinderTests.swift; sourceTree = "<group>"; };
+		5BA127971F2B511300F45AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA1279C1F2B511300F45AF8 /* PokemonGo GroupfinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokemonGo GroupfinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA127A01F2B511300F45AF8 /* PokemonGo_GroupfinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGo_GroupfinderUITests.swift; sourceTree = "<group>"; };
+		5BA127A21F2B511300F45AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA127B61F2B521C00F45AF8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5BA127B81F2B522C00F45AF8 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		5BA127C11F2B5BEF00F45AF8 /* GroupFinderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupFinderVC.swift; sourceTree = "<group>"; };
+		5BA127D11F31E0D300F45AF8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5BAB21341FE95822005D46D5 /* CreditsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsVC.swift; sourceTree = "<group>"; };
+		5BAB21361FE95840005D46D5 /* FeedBackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackVC.swift; sourceTree = "<group>"; };
+		5BAB21381FE95863005D46D5 /* ReportProblemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportProblemVC.swift; sourceTree = "<group>"; };
+		5BAB213A1FEAAA17005D46D5 /* AdConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConfirmationVC.swift; sourceTree = "<group>"; };
+		5BB561261F33826700FC6239 /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		5BB561331F34A19500FC6239 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		5BBCFC5C1F432E680019BA72 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse/Parse.framework"; sourceTree = "<group>"; };
+		5BBCFC5E1F432E940019BA72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5BBCFC601F432E9F0019BA72 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5BBCFC621F432EAA0019BA72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BBCFC641F432EB50019BA72 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5BBCFC661F432EC20019BA72 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5BBCFC681F432ECD0019BA72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5BBCFC6A1F432ED60019BA72 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5BBCFC6C1F432EDF0019BA72 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5BBCFC6E1F432EE90019BA72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5BBCFC701F432F200019BA72 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5BBCFC721F432F290019BA72 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5BC986661F42395200EAF7C7 /* Invite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invite.swift; sourceTree = "<group>"; };
+		5BEF475D20197D8E00BB5CBC /* GroupInvitesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInvitesVC.swift; sourceTree = "<group>"; };
+		5F2E6C6C3AA59C4D149FAA93 /* Pods-PokemonGo GroupfinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonGo GroupfinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonGo GroupfinderTests/Pods-PokemonGo GroupfinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		7972A2B5423412ED681EB4A8 /* Pods-PokemonGo Groupfinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonGo Groupfinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonGo Groupfinder/Pods-PokemonGo Groupfinder.debug.xcconfig"; sourceTree = "<group>"; };
+		9B3471F9330CC1DD244EF501 /* Pods-PokemonGo GroupfinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonGo GroupfinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonGo GroupfinderUITests/Pods-PokemonGo GroupfinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6DB3EAD0D08498DC7318BCE /* Pods-PokemonGo Groupfinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonGo Groupfinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonGo Groupfinder/Pods-PokemonGo Groupfinder.release.xcconfig"; sourceTree = "<group>"; };
+		C27EFB8485EA8ED324E52465 /* Pods_PokemonGo_GroupfinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonGo_GroupfinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C491C7814ED200C81CCB6186 /* Pods-PokemonGo GroupfinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonGo GroupfinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonGo GroupfinderUITests/Pods-PokemonGo GroupfinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C64B26834A1F0B0DCAF7E137 /* Pods_PokemonGo_Groupfinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonGo_Groupfinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4B5B3022C1086F2F160AFF /* Pods_PokemonGo_GroupfinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonGo_GroupfinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA1277A1F2B511300F45AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBCFC731F432F290019BA72 /* libz.tbd in Frameworks */,
+				5BBCFC711F432F200019BA72 /* libsqlite3.tbd in Frameworks */,
+				5BBCFC6F1F432EE90019BA72 /* SystemConfiguration.framework in Frameworks */,
+				5BBCFC6D1F432EDF0019BA72 /* StoreKit.framework in Frameworks */,
+				5BBCFC6B1F432ED60019BA72 /* Security.framework in Frameworks */,
+				5BBCFC691F432ECD0019BA72 /* QuartzCore.framework in Frameworks */,
+				5BBCFC671F432EC20019BA72 /* MobileCoreServices.framework in Frameworks */,
+				5BBCFC651F432EB50019BA72 /* CoreLocation.framework in Frameworks */,
+				5BBCFC631F432EAA0019BA72 /* CoreGraphics.framework in Frameworks */,
+				5BBCFC611F432E9F0019BA72 /* CFNetwork.framework in Frameworks */,
+				5BBCFC5F1F432E940019BA72 /* AudioToolbox.framework in Frameworks */,
+				FC80B32931A4A49579C236E4 /* Pods_PokemonGo_Groupfinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA1278E1F2B511300F45AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA365F286DCDD7863AC5466 /* Pods_PokemonGo_GroupfinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA127991F2B511300F45AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71F4CC7D6D1984DD69710CC /* Pods_PokemonGo_GroupfinderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1974D11F717E9200F65D6F /* PopUpControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B1974D21F717ED500F65D6F /* SelectPokemonPopup.swift */,
+				5BAB213A1FEAAA17005D46D5 /* AdConfirmationVC.swift */,
+				5B8707D22080CE7D00404E7F /* selectCalloutTypePopupVC.swift */,
+				5B5D5B1020BEBF7200BDED07 /* addRaidVC.swift */,
+				5B5D5B1420BEBF8D00BDED07 /* addPkmVC.swift */,
+				5B5D5B1820C5B2FC00BDED07 /* addNestVC.swift */,
+				5B5D5B1620BEC49E00BDED07 /* CalloutPopupVC.swift */,
+				5B5D5B1E20C865FD00BDED07 /* RequestPopupVC.swift */,
+			);
+			name = PopUpControllers;
+			sourceTree = "<group>";
+		};
+		5B24925920996B250090ECE0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B24925A20996B460090ECE0 /* MainNavigationBar.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5B4272441F848D9E00EADB33 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB21341FE95822005D46D5 /* CreditsVC.swift */,
+				5BAB21361FE95840005D46D5 /* FeedBackVC.swift */,
+				5BAB21381FE95863005D46D5 /* ReportProblemVC.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		5B51F4901F4DEB56001C014F /* GroupViews */ = {
+			isa = PBXGroup;
+			children = (
+				5BA127C11F2B5BEF00F45AF8 /* GroupFinderVC.swift */,
+				5B70D6621F3F177F004A772D /* GroupDetailsVC.swift */,
+				5B51F4A91F575140001C014F /* createGroupVC.swift */,
+				5B50D33F1FF6164700A6A7F6 /* GroupTableViewCell.swift */,
+				5BEF475D20197D8E00BB5CBC /* GroupInvitesVC.swift */,
+				5B5D5B1A20C80B2B00BDED07 /* AdminGroupControlsVC.swift */,
+			);
+			name = GroupViews;
+			sourceTree = "<group>";
+		};
+		5B51F4991F547B48001C014F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				5B51F49A1F547B5D001C014F /* Main.storyboard */,
+				5B51F4A71F551177001C014F /* PopupViews.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		5B51F4A01F549CBE001C014F /* ChatFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5B51F4A11F549CDB001C014F /* ChatCell.swift */,
+				5B51F4A21F549CDB001C014F /* ChatCell.xib */,
+			);
+			name = ChatFiles;
+			sourceTree = "<group>";
+		};
+		5B887B881FD880FC00E4DA24 /* WebHandler */ = {
+			isa = PBXGroup;
+			children = (
+				5B887B891FD8812C00E4DA24 /* FirebaseHandler.swift */,
+				5B7CFD5E1FC779A10080CA7F /* PokeAPIHandler.swift */,
+			);
+			name = WebHandler;
+			sourceTree = "<group>";
+		};
+		5BA127741F2B511300F45AF8 = {
+			isa = PBXGroup;
+			children = (
+				5BA1277F1F2B511300F45AF8 /* PokemonGo Groupfinder */,
+				5BA127941F2B511300F45AF8 /* PokemonGo GroupfinderTests */,
+				5BA1279F1F2B511300F45AF8 /* PokemonGo GroupfinderUITests */,
+				5BA1277E1F2B511300F45AF8 /* Products */,
+				FF423F002650D7B7AFFE2B07 /* Pods */,
+				7308C84A9B9E17D6AC1C7367 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA1277E1F2B511300F45AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA1277D1F2B511300F45AF8 /* PokemonGo Groupfinder.app */,
+				5BA127911F2B511300F45AF8 /* PokemonGo GroupfinderTests.xctest */,
+				5BA1279C1F2B511300F45AF8 /* PokemonGo GroupfinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA1277F1F2B511300F45AF8 /* PokemonGo Groupfinder */ = {
+			isa = PBXGroup;
+			children = (
+				5B24925920996B250090ECE0 /* Controllers */,
+				5B887B881FD880FC00E4DA24 /* WebHandler */,
+				5B4272441F848D9E00EADB33 /* Settings */,
+				5B1974D11F717E9200F65D6F /* PopUpControllers */,
+				5B51F4A01F549CBE001C014F /* ChatFiles */,
+				5B51F4991F547B48001C014F /* StoryBoards */,
+				5B51F4901F4DEB56001C014F /* GroupViews */,
+				5BB5611E1F335CD200FC6239 /* Resources */,
+				5BA127BA1F2B566100F45AF8 /* ViewControllers */,
+				5BA127AE1F2B512E00F45AF8 /* Classes */,
+				5BA127801F2B511300F45AF8 /* AppDelegate.swift */,
+				5B9DD75420725B40004E3166 /* GoogleService-Info.plist */,
+				5BA127871F2B511300F45AF8 /* Assets.xcassets */,
+				5BA127891F2B511300F45AF8 /* LaunchScreen.storyboard */,
+				5BA1278C1F2B511300F45AF8 /* Info.plist */,
+				5B4EF5C21FE4033C0061C18D /* What2Do.rtf */,
+			);
+			path = "PokemonGo Groupfinder";
+			sourceTree = "<group>";
+		};
+		5BA127941F2B511300F45AF8 /* PokemonGo GroupfinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA127951F2B511300F45AF8 /* PokemonGo_GroupfinderTests.swift */,
+				5BA127971F2B511300F45AF8 /* Info.plist */,
+			);
+			path = "PokemonGo GroupfinderTests";
+			sourceTree = "<group>";
+		};
+		5BA1279F1F2B511300F45AF8 /* PokemonGo GroupfinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA127A01F2B511300F45AF8 /* PokemonGo_GroupfinderUITests.swift */,
+				5BA127A21F2B511300F45AF8 /* Info.plist */,
+			);
+			path = "PokemonGo GroupfinderUITests";
+			sourceTree = "<group>";
+		};
+		5BA127AE1F2B512E00F45AF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BA127B61F2B521C00F45AF8 /* User.swift */,
+				5BA127B81F2B522C00F45AF8 /* Group.swift */,
+				5BB561331F34A19500FC6239 /* Pokemon.swift */,
+				5BC986661F42395200EAF7C7 /* Invite.swift */,
+				5B0C07011F60F6DB0092C18A /* SharedInfo.swift */,
+				5B0C07071F678C3B0092C18A /* Adwords.swift */,
+				5B4272491F852EB200EADB33 /* LocationMessage.swift */,
+				5B8D2B1A1F862B0D00DE34CD /* Message.swift */,
+				5B76CD4F1F9E375300C0C687 /* Callout.swift */,
+				5B9CE056203DF601002FE7DB /* Extensions.swift */,
+				5B9DD7562074E836004E3166 /* LocationCache.swift */,
+				5B4CE6C1209765C30005A8D0 /* PokemonList.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		5BA127BA1F2B566100F45AF8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA127D11F31E0D300F45AF8 /* MainViewController.swift */,
+				5BB561261F33826700FC6239 /* MyProfileVC.swift */,
+				5B51F46C1F45DC6B001C014F /* LoginVC.swift */,
+				5B51F4701F45E75F001C014F /* SignUpVC.swift */,
+				5B51F49C1F548A3E001C014F /* calloutVC.swift */,
+				5B19750E1F72C82400F65D6F /* addPlaceVC.swift */,
+				5B4EF5C01FE36CC40061C18D /* SettingsVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5BB5611E1F335CD200FC6239 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7308C84A9B9E17D6AC1C7367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BBCFC721F432F290019BA72 /* libz.tbd */,
+				5BBCFC701F432F200019BA72 /* libsqlite3.tbd */,
+				5BBCFC6E1F432EE90019BA72 /* SystemConfiguration.framework */,
+				5BBCFC6C1F432EDF0019BA72 /* StoreKit.framework */,
+				5BBCFC6A1F432ED60019BA72 /* Security.framework */,
+				5BBCFC681F432ECD0019BA72 /* QuartzCore.framework */,
+				5BBCFC661F432EC20019BA72 /* MobileCoreServices.framework */,
+				5BBCFC641F432EB50019BA72 /* CoreLocation.framework */,
+				5BBCFC621F432EAA0019BA72 /* CoreGraphics.framework */,
+				5BBCFC601F432E9F0019BA72 /* CFNetwork.framework */,
+				5BBCFC5E1F432E940019BA72 /* AudioToolbox.framework */,
+				5BBCFC5C1F432E680019BA72 /* Parse.framework */,
+				C64B26834A1F0B0DCAF7E137 /* Pods_PokemonGo_Groupfinder.framework */,
+				CB4B5B3022C1086F2F160AFF /* Pods_PokemonGo_GroupfinderTests.framework */,
+				C27EFB8485EA8ED324E52465 /* Pods_PokemonGo_GroupfinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF423F002650D7B7AFFE2B07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7972A2B5423412ED681EB4A8 /* Pods-PokemonGo Groupfinder.debug.xcconfig */,
+				B6DB3EAD0D08498DC7318BCE /* Pods-PokemonGo Groupfinder.release.xcconfig */,
+				4ED6D066E33A8B87445D62D4 /* Pods-PokemonGo GroupfinderTests.debug.xcconfig */,
+				5F2E6C6C3AA59C4D149FAA93 /* Pods-PokemonGo GroupfinderTests.release.xcconfig */,
+				C491C7814ED200C81CCB6186 /* Pods-PokemonGo GroupfinderUITests.debug.xcconfig */,
+				9B3471F9330CC1DD244EF501 /* Pods-PokemonGo GroupfinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA1277C1F2B511300F45AF8 /* PokemonGo Groupfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA127A51F2B511300F45AF8 /* Build configuration list for PBXNativeTarget "PokemonGo Groupfinder" */;
+			buildPhases = (
+				DCA94E374D2359B3ACCD9E8A /* [CP] Check Pods Manifest.lock */,
+				5BA127791F2B511300F45AF8 /* Sources */,
+				5BA1277A1F2B511300F45AF8 /* Frameworks */,
+				5BA1277B1F2B511300F45AF8 /* Resources */,
+				BB3A05DF31963EC65EEFF037 /* [CP] Embed Pods Frameworks */,
+				C5B58E64A507C20C5C20626D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PokemonGo Groupfinder";
+			productName = "PokemonGo Groupfinder";
+			productReference = 5BA1277D1F2B511300F45AF8 /* PokemonGo Groupfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BA127901F2B511300F45AF8 /* PokemonGo GroupfinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA127A81F2B511300F45AF8 /* Build configuration list for PBXNativeTarget "PokemonGo GroupfinderTests" */;
+			buildPhases = (
+				B57C26D2FEF2768ACB049BBE /* [CP] Check Pods Manifest.lock */,
+				5BA1278D1F2B511300F45AF8 /* Sources */,
+				5BA1278E1F2B511300F45AF8 /* Frameworks */,
+				5BA1278F1F2B511300F45AF8 /* Resources */,
+				A4DA1C5B37D6DF16CE57DE48 /* [CP] Embed Pods Frameworks */,
+				202B6C5B989F9A5B4E7E4116 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA127931F2B511300F45AF8 /* PBXTargetDependency */,
+			);
+			name = "PokemonGo GroupfinderTests";
+			productName = "PokemonGo GroupfinderTests";
+			productReference = 5BA127911F2B511300F45AF8 /* PokemonGo GroupfinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BA1279B1F2B511300F45AF8 /* PokemonGo GroupfinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA127AB1F2B511300F45AF8 /* Build configuration list for PBXNativeTarget "PokemonGo GroupfinderUITests" */;
+			buildPhases = (
+				53ABBECC806BCC488C7C256F /* [CP] Check Pods Manifest.lock */,
+				5BA127981F2B511300F45AF8 /* Sources */,
+				5BA127991F2B511300F45AF8 /* Frameworks */,
+				5BA1279A1F2B511300F45AF8 /* Resources */,
+				E5639CB6C6AD6AD7EE8F8875 /* [CP] Embed Pods Frameworks */,
+				70BDEE56A43CA6118E988CF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA1279E1F2B511300F45AF8 /* PBXTargetDependency */,
+			);
+			name = "PokemonGo GroupfinderUITests";
+			productName = "PokemonGo GroupfinderUITests";
+			productReference = 5BA1279C1F2B511300F45AF8 /* PokemonGo GroupfinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA127751F2B511300F45AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Marcus Pedersen";
+				TargetAttributes = {
+					5BA1277C1F2B511300F45AF8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WKPW7V993F;
+						ProvisioningStyle = Automatic;
+					};
+					5BA127901F2B511300F45AF8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WKPW7V993F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BA1277C1F2B511300F45AF8;
+					};
+					5BA1279B1F2B511300F45AF8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WKPW7V993F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BA1277C1F2B511300F45AF8;
+					};
+				};
+			};
+			buildConfigurationList = 5BA127781F2B511300F45AF8 /* Build configuration list for PBXProject "PokemonGo Groupfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BA127741F2B511300F45AF8;
+			productRefGroup = 5BA1277E1F2B511300F45AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA1277C1F2B511300F45AF8 /* PokemonGo Groupfinder */,
+				5BA127901F2B511300F45AF8 /* PokemonGo GroupfinderTests */,
+				5BA1279B1F2B511300F45AF8 /* PokemonGo GroupfinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA1277B1F2B511300F45AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B51F4A81F551177001C014F /* PopupViews.storyboard in Resources */,
+				5B9DD75520725B41004E3166 /* GoogleService-Info.plist in Resources */,
+				5BA1278B1F2B511300F45AF8 /* LaunchScreen.storyboard in Resources */,
+				5B4EF5C31FE4033C0061C18D /* What2Do.rtf in Resources */,
+				5B51F49B1F547B5D001C014F /* Main.storyboard in Resources */,
+				5B51F4A41F549CDB001C014F /* ChatCell.xib in Resources */,
+				5BA127881F2B511300F45AF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA1278F1F2B511300F45AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA1279A1F2B511300F45AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		202B6C5B989F9A5B4E7E4116 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGo GroupfinderTests/Pods-PokemonGo GroupfinderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53ABBECC806BCC488C7C256F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokemonGo GroupfinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70BDEE56A43CA6118E988CF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGo GroupfinderUITests/Pods-PokemonGo GroupfinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4DA1C5B37D6DF16CE57DE48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGo GroupfinderTests/Pods-PokemonGo GroupfinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57C26D2FEF2768ACB049BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokemonGo GroupfinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3A05DF31963EC65EEFF037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGo Groupfinder/Pods-PokemonGo Groupfinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AZSearchView/AZSearchView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZSearchView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGo Groupfinder/Pods-PokemonGo Groupfinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B58E64A507C20C5C20626D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGo Groupfinder/Pods-PokemonGo Groupfinder-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGo Groupfinder/Pods-PokemonGo Groupfinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA94E374D2359B3ACCD9E8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokemonGo Groupfinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5639CB6C6AD6AD7EE8F8875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonGo GroupfinderUITests/Pods-PokemonGo GroupfinderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA127791F2B511300F45AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7CFD5F1FC779A10080CA7F /* PokeAPIHandler.swift in Sources */,
+				5B50D3401FF6164700A6A7F6 /* GroupTableViewCell.swift in Sources */,
+				5B51F46E1F45DC6B001C014F /* LoginVC.swift in Sources */,
+				5BA127811F2B511300F45AF8 /* AppDelegate.swift in Sources */,
+				5B4CE6C2209765C30005A8D0 /* PokemonList.swift in Sources */,
+				5B5D5B1720BEC49E00BDED07 /* CalloutPopupVC.swift in Sources */,
+				5B70D6641F3F177F004A772D /* GroupDetailsVC.swift in Sources */,
+				5BAB21371FE95840005D46D5 /* FeedBackVC.swift in Sources */,
+				5B19750F1F72C82400F65D6F /* addPlaceVC.swift in Sources */,
+				5B0C07081F678C3B0092C18A /* Adwords.swift in Sources */,
+				5B887B8A1FD8812C00E4DA24 /* FirebaseHandler.swift in Sources */,
+				5B51F4721F45E75F001C014F /* SignUpVC.swift in Sources */,
+				5B5D5B1120BEBF7200BDED07 /* addRaidVC.swift in Sources */,
+				5B5D5B1920C5B2FC00BDED07 /* addNestVC.swift in Sources */,
+				5B8D2B1B1F862B0D00DE34CD /* Message.swift in Sources */,
+				5BA127B71F2B521C00F45AF8 /* User.swift in Sources */,
+				5B1974D31F717ED500F65D6F /* SelectPokemonPopup.swift in Sources */,
+				5B51F49D1F548A3E001C014F /* calloutVC.swift in Sources */,
+				5B9DD7572074E836004E3166 /* LocationCache.swift in Sources */,
+				5B5D5B1520BEBF8D00BDED07 /* addPkmVC.swift in Sources */,
+				5B0C07021F60F6DB0092C18A /* SharedInfo.swift in Sources */,
+				5BB561281F33826700FC6239 /* MyProfileVC.swift in Sources */,
+				5B42724A1F852EB200EADB33 /* LocationMessage.swift in Sources */,
+				5B8707D32080CE7D00404E7F /* selectCalloutTypePopupVC.swift in Sources */,
+				5B5D5B1F20C865FD00BDED07 /* RequestPopupVC.swift in Sources */,
+				5B51F4A31F549CDB001C014F /* ChatCell.swift in Sources */,
+				5BAB213B1FEAAA17005D46D5 /* AdConfirmationVC.swift in Sources */,
+				5BA127C31F2B5BEF00F45AF8 /* GroupFinderVC.swift in Sources */,
+				5BAB21391FE95863005D46D5 /* ReportProblemVC.swift in Sources */,
+				5BAB21351FE95822005D46D5 /* CreditsVC.swift in Sources */,
+				5BEF475E20197D8E00BB5CBC /* GroupInvitesVC.swift in Sources */,
+				5B51F4AA1F575140001C014F /* createGroupVC.swift in Sources */,
+				5BC986671F42395200EAF7C7 /* Invite.swift in Sources */,
+				5B76CD501F9E375300C0C687 /* Callout.swift in Sources */,
+				5BB561341F34A19500FC6239 /* Pokemon.swift in Sources */,
+				5B4EF5C11FE36CC40061C18D /* SettingsVC.swift in Sources */,
+				5B24925B20996B460090ECE0 /* MainNavigationBar.swift in Sources */,
+				5BA127B91F2B522C00F45AF8 /* Group.swift in Sources */,
+				5B5D5B1B20C80B2B00BDED07 /* AdminGroupControlsVC.swift in Sources */,
+				5B9CE057203DF601002FE7DB /* Extensions.swift in Sources */,
+				5BA127D31F31E0D300F45AF8 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA1278D1F2B511300F45AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA127961F2B511300F45AF8 /* PokemonGo_GroupfinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA127981F2B511300F45AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA127A11F2B511300F45AF8 /* PokemonGo_GroupfinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BA127931F2B511300F45AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA1277C1F2B511300F45AF8 /* PokemonGo Groupfinder */;
+			targetProxy = 5BA127921F2B511300F45AF8 /* PBXContainerItemProxy */;
+		};
+		5BA1279E1F2B511300F45AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA1277C1F2B511300F45AF8 /* PokemonGo Groupfinder */;
+			targetProxy = 5BA1279D1F2B511300F45AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BA127891F2B511300F45AF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA1278A1F2B511300F45AF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA127A31F2B511300F45AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BA127A41F2B511300F45AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BA127A61F2B511300F45AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7972A2B5423412ED681EB4A8 /* Pods-PokemonGo Groupfinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WKPW7V993F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = "PokemonGo Groupfinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PokemonGo-Groupfinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5BA127A71F2B511300F45AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DB3EAD0D08498DC7318BCE /* Pods-PokemonGo Groupfinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WKPW7V993F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = "PokemonGo Groupfinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PokemonGo-Groupfinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5BA127A91F2B511300F45AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED6D066E33A8B87445D62D4 /* Pods-PokemonGo GroupfinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WKPW7V993F;
+				INFOPLIST_FILE = "PokemonGo GroupfinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PokemonGo-GroupfinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonGo Groupfinder.app/PokemonGo Groupfinder";
+			};
+			name = Debug;
+		};
+		5BA127AA1F2B511300F45AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2E6C6C3AA59C4D149FAA93 /* Pods-PokemonGo GroupfinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WKPW7V993F;
+				INFOPLIST_FILE = "PokemonGo GroupfinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PokemonGo-GroupfinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonGo Groupfinder.app/PokemonGo Groupfinder";
+			};
+			name = Release;
+		};
+		5BA127AC1F2B511300F45AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C491C7814ED200C81CCB6186 /* Pods-PokemonGo GroupfinderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WKPW7V993F;
+				INFOPLIST_FILE = "PokemonGo GroupfinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PokemonGo-GroupfinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "PokemonGo Groupfinder";
+			};
+			name = Debug;
+		};
+		5BA127AD1F2B511300F45AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3471F9330CC1DD244EF501 /* Pods-PokemonGo GroupfinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WKPW7V993F;
+				INFOPLIST_FILE = "PokemonGo GroupfinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PokemonGo-GroupfinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "PokemonGo Groupfinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA127781F2B511300F45AF8 /* Build configuration list for PBXProject "PokemonGo Groupfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA127A31F2B511300F45AF8 /* Debug */,
+				5BA127A41F2B511300F45AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA127A51F2B511300F45AF8 /* Build configuration list for PBXNativeTarget "PokemonGo Groupfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA127A61F2B511300F45AF8 /* Debug */,
+				5BA127A71F2B511300F45AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA127A81F2B511300F45AF8 /* Build configuration list for PBXNativeTarget "PokemonGo GroupfinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA127A91F2B511300F45AF8 /* Debug */,
+				5BA127AA1F2B511300F45AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA127AB1F2B511300F45AF8 /* Build configuration list for PBXNativeTarget "PokemonGo GroupfinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA127AC1F2B511300F45AF8 /* Debug */,
+				5BA127AD1F2B511300F45AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA127751F2B511300F45AF8 /* Project object */;
+}

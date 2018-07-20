@@ -1,0 +1,6 @@
+framework module Pods_PokemonGo_Groupfinder {
+  umbrella header "Pods-PokemonGo Groupfinder-umbrella.h"
+
+  export *
+  module * { export * }
+}

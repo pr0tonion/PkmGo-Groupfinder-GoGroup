@@ -1,0 +1,6 @@
+framework module Pods_PokemonGo_GroupfinderUITests {
+  umbrella header "Pods-PokemonGo GroupfinderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
